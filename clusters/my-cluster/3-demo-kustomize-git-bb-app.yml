@@ -5,7 +5,7 @@ metadata:
   name: 3-demo-source-git-bb-app
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 10s
   path: ./manifests
   prune: true
   sourceRef:
